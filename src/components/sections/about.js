@@ -126,7 +126,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'JavaScript (ES6+)',
+    'Flask',
+    'Vue',
+    'Django',
+    'Node.js',
+    'Flutter',
+    'Laravel',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,24 +145,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi! My name is Zubeir and I am naturally attracted to the technology field and
+              innovating new things , my passion and commitment to the field has him stuck on
+              researching and developing models to disrupt the status quo while maintaining the past
+              towards creating a better future.
+            </p>
+
+            <p>
+              My breakthrough with technology innovation happened when I accidentally developed an
+              e-commerce platform in High school as a school project.Eversince Zubeir has been
+              immersed with computer science and maths to sharpen his skills and experience.
             </p>
 
             <p>
               Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://lefintech.ltd/landing/">a Fintech CFO company</a>,{' '}
+              <a href="https://www.greenventuretanzania.com/">a start-up</a>,{' '}
+              <a href="https://www.nbc.co.tz/en/personal/">a huge corporation</a>, and{' '}
+              <a href="https://www.alxafrica.com/">an entrepreneur-led community </a>. My sole goal
+              is always build,collaborate and innovate accessible, inclusive products and digital
+              experiences to clients.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here is a glimpse of what i have been interacting with:</p>
           </div>
 
           <ul className="skills-list">
@@ -165,7 +179,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/zub.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

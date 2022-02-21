@@ -1,26 +1,26 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'zubrah.ayyub@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Zubrah',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/zubrah_',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/zubrahboy',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/zuberi-a-msemo-b9688691/',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: '#',
     },
   ],
 
@@ -54,10 +54,10 @@ module.exports = {
     distance: '20px',
     duration: 500,
     delay,
-    rotate: { x: 0, y: 0, z: 0 },
+    rotate: { x: 0, y: 180, z: 0 },
     opacity: 0,
     scale: 1,
-    easing: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
+    easing: 'cubic-bezier(0.845, 0.055, 0.455, 1)',
     mobile: true,
     reset: false,
     useDelay: 'always',
